@@ -1,5 +1,7 @@
 # RaiScuola
 
+http://flashedu.rai.it/ieduportale/
+
 I sottotitoli nella cartella trascrizioni
 
 You can listen to the podcast and correct the transcription loading the data for example in to the [BBC Transcript Editor](https://bbc.github.io/react-transcript-editor/iframe.html?id=demo--default)
