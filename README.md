@@ -43,8 +43,6 @@ Right click and save link as to download
 
 [Il fegato: la funzione della bile](http://flashedu.rai.it/ieduportale/medita/2284.mp4)
 
-Il thread 0x3c0 è terminato con il codice 0 (0x0).
-
 [LE OSSA: LA CARTILAGINE](http://flashedu.rai.it/ieduportale/medita/2257.mp4)
 
 [L` OCCHIO: LA STRUTTURA](http://flashedu.rai.it/ieduportale/medita/2223.mp4)
