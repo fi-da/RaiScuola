@@ -59,7 +59,7 @@ namespace RaiScuola
 
                                     var url = Regex.Match(htmlCode2, @"http://flashedu.rai.it/ieduportale/medita/(\d+).mp4");
                                     Debug.WriteLine($"[{titleValue}]({url.Value})");
-                                    cli2.DownloadFile(url.Value, MakeValidFileName($"{url.Groups[1].Value}_{titleValue}.mp4"));
+                                    cli2.DownloadFile(url.Value, $"{url.Groups[1].Value}_{MakeValidFileName(titleValue)}.mp4");
                                     Console.WriteLine($"Downloaded {titleValue}");                                   
                                 }
                             }

@@ -54,6 +54,59 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Trascrizioni\Medicina interna\1866_il_corpo_umano__curiosità_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\1887_le_ossa__la_struttura_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\1911_leonardo_da_vinci__gli_studi_di_anatomia_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\2106_l__olfatto_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\2122_le_corde_vocali_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\2166_il_fegato_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\2204_antonio_bargellesi__il_s__in_biologia_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\2223_l__occhio__la_struttura_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\2257_le_ossa__la_cartilagine_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\2284_il_fegato__la_funzione_della_bile_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\2475_lo_stomaco__la_digestione_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\2518_l__intestino__la_digestione_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\2667_l__orecchio_e_il_cervello_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\2973_il_cuore__il_funzionamento_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\3074_i_neuroni_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\3165_bronchi_e_polmoni_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\5503_il_gusto__gli_organi_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\7426_la_respirazione_aerobica_e_anaerobica_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\7430_l__occhio__struttura_e_risposta_agli_stimoli_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\7433_il_sistema_nervoso__risposta_agli_stimoli_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\7882_lo_scheletro_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\7883_i_polmoni_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\7891_il_cuore_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\7893_il_sistema_digestivo_alum_amz.json" />
+    <None Include="Trascrizioni\Medicina interna\7894_gli_enzimi_digestivi_alum_amz.json" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Trascrizioni\Medicina interna\1866_il_corpo_umano__curiosità_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\1887_le_ossa__la_struttura_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\1911_leonardo_da_vinci__gli_studi_di_anatomia_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\2106_l__olfatto_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\2122_le_corde_vocali_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\2166_il_fegato_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\2204_antonio_bargellesi__il_s__in_biologia_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\2223_l__occhio__la_struttura_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\2257_le_ossa__la_cartilagine_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\2284_il_fegato__la_funzione_della_bile_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\2475_lo_stomaco__la_digestione_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\2518_l__intestino__la_digestione_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\2667_l__orecchio_e_il_cervello_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\2973_il_cuore__il_funzionamento_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\3074_i_neuroni_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\3165_bronchi_e_polmoni_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\5503_il_gusto__gli_organi_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\7426_la_respirazione_aerobica_e_anaerobica_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\7430_l__occhio__struttura_e_risposta_agli_stimoli_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\7433_il_sistema_nervoso__risposta_agli_stimoli_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\7882_lo_scheletro_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\7883_i_polmoni_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\7891_il_cuore_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\7893_il_sistema_digestivo_alum.txt" />
+    <Content Include="Trascrizioni\Medicina interna\7894_gli_enzimi_digestivi_alum.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
