@@ -50,10 +50,19 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Trascrizioni\Medicina interna\1866_il_corpo_umano__curiosità_alum_amz.json" />
     <None Include="Trascrizioni\Medicina interna\1887_le_ossa__la_struttura_alum_amz.json" />
     <None Include="Trascrizioni\Medicina interna\1911_leonardo_da_vinci__gli_studi_di_anatomia_alum_amz.json" />

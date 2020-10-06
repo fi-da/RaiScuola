@@ -73,10 +73,47 @@ namespace RaiScuola
             }
         }
 
+        static void Medita()
+        {
+
+            
+            using (var cli = new WebClient())
+            {
+                cli.Encoding = Encoding.UTF8;
+                cli.Headers.Add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 Edg/83.0.478.56");
+                cli.CachePolicy = new System.Net.Cache.RequestCachePolicy(System.Net.Cache.RequestCacheLevel.NoCacheNoStore);
+
+                string htmlCode = cli.DownloadString($"http://flashedu.rai.it/ieduportale/{Properties.Settings.Default.folder}/");
+                HtmlDocument doc = new HtmlDocument();
+                doc.LoadHtml(htmlCode);
+
+                //<div class="entry-content">
+                foreach (var node in doc.DocumentNode.SelectNodes("//a[@href]"))
+                {
+                    // Get the value of the HREF attribute
+                    string hrefValue = node.GetAttributeValue("href", string.Empty);
+                    
+                    if (hrefValue.EndsWith("mp4"))
+                    {
+                        try
+                        {
+                            cli.DownloadFile($"http://flashedu.rai.it/ieduportale/{Properties.Settings.Default.folder}/{hrefValue}", $@"\\ssg06\usbshare1\Rai\RaiScuola\{Properties.Settings.Default.folder}\{hrefValue}");
+                            Console.WriteLine($"Downloaded {hrefValue}");
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine(ex.Message);
+                        }
+                    }
+                }
+            }
+            
+        }
 
         static void Main(string[] args)
         {
-            MedicinaInterna();
+            Medita();
+            //MedicinaInterna();
         }
     }
 }
